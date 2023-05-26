@@ -1,0 +1,7 @@
+[
+  {
+    "directory": ".",
+    "command": "g++ /workspaces/play-ground/a.cpp",
+    "file": "/workspaces/play-ground/a.cpp"
+  }
+]
