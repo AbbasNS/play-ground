@@ -1,7 +1,9 @@
 
-[submodule "Playground"]
-	path = Playground
-	url = https://github.com/abbas-sabra-sonarsource/Playground.git
 [submodule "Playground1"]
 	path = Playground1
 	url = https://github.com/abbas-sabra-sonarsource/Playground1.git
+
+[submodule "Playground"]
+	path = Playground
+	url = https://github.com/abbas-sabra-sonarsource/Playground.git
+
