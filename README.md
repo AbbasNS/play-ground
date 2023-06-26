@@ -1,3 +1,3 @@
 # play-ground
 
-trigger1
+trigger-1
