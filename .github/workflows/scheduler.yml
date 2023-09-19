@@ -2,6 +2,17 @@ name: scheduler
 on:
   schedule:
     - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
 jobs:
   push_commit:
     name: commit
