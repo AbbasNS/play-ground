@@ -1,10 +1,10 @@
-name: "Scheduler"
+name: "scheduler"
 on:
   schedule:
-    - cron: '0/10 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   push_commit:
-    name: PUSH
+    name: commit
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
