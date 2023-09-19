@@ -1,0 +1,13 @@
+on:
+  schedule:
+    - cron: 1-59 * * * *
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git commit –allow-empty -m "`date`"
+          git push
