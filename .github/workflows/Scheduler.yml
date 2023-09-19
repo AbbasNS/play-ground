@@ -11,5 +11,5 @@ jobs:
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git commit –-allow-empty -m "`date`"
+          git commit --allow-empty -m "`date`"
           git push
