@@ -1,4 +1,6 @@
 
 int f() {
-  return 1/0;
+  int x =2;
+  int y = 7;
+  return x/7;
 }
